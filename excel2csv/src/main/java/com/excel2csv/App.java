@@ -26,7 +26,7 @@ public class App
 
         // long startTime = System.currentTimeMillis();
 
-        String absolutePath = "Path to data folder";
+        String absolutePath = "/workspaces/excel2csv/excel2csv/data";
 
         String folderPath = Paths.get(absolutePath, "input").toString();
         try (DirectoryStream<Path> stream = Files.newDirectoryStream(Paths.get(folderPath))) {
